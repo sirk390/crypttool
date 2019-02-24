@@ -1,0 +1,11 @@
+Dependencies:
+    pycryptodome
+    wxpython
+    wxasync
+    winreg
+    
+To create installer:
+    - pyinstaller main.spec
+   
+With inno setup :
+- iscc main.iss
